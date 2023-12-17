@@ -1,6 +1,5 @@
 const url = "http://localhost:8000"
 import Cookies from "js-cookie"
-let token = null;
 
 
 export const register = async (email,password) => {
